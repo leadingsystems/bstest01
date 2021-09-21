@@ -5,8 +5,8 @@
   "type": "contao-bundle",
   "license": "proprietary",
   "require": {
-    "php": ">=7.0.0",
-    "contao/core-bundle": "~4.4.0"
+    "php": "^7.2",
+    "contao/core-bundle": "~4.9.0"
   },
   "autoload": {
     "psr-4": {
