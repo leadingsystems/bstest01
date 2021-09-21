@@ -1,2 +1,2 @@
 <?php
-$GLOBALS['TL_LANG']['MSC']['merconis-custom']['headline1'] = 'Merconis Custom test module';
+$GLOBALS['TL_LANG']['MSC']['bstest01']['headline1'] = 'BSTEST01 test module';

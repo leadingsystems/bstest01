@@ -1,0 +1,1 @@
+<h1><?php echo $GLOBALS['TL_LANG']['MSC']['bstest01']['headline1']; ?></h1>

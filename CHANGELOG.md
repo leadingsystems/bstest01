@@ -1,4 +1,2 @@
-Leading Systems Merconis Custom changelog
-===========================================
+# Leading Systems BSTEST01 changelog
 
-### 1.0.0 (2018-07-20)

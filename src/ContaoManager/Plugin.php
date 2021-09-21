@@ -1,6 +1,6 @@
 <?php
 
-namespace LeadingSystems\MerconisCustomBundle\ContaoManager;
+namespace LeadingSystems\Bstest01Bundle\ContaoManager;
 
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
@@ -19,7 +19,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create('LeadingSystems\MerconisCustomBundle\LeadingSystemsMerconisCustomBundle')
+            BundleConfig::create('LeadingSystems\Bstest01Bundle\LeadingSystemsBstest01Bundle')
                 ->setLoadAfter(['Contao\CoreBundle\ContaoCoreBundle'])
         ];
     }

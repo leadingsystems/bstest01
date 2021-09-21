@@ -1,6 +1,6 @@
 <?php
 
-$GLOBALS['TL_LANG']['MOD']['merconis_custom'] = 'Merconis Custom';
+$GLOBALS['TL_LANG']['MOD']['bstest01'] = 'BSTEST01';
+$GLOBALS['TL_LANG']['MOD']['bstest01_dummy'] = array('Test module');
 
-$GLOBALS['TL_LANG']['FMD']['merconis_custom'] = 'Merconis Custom';
-$GLOBALS['TL_LANG']['FMD']['merconis_custom_dummy'] = array('Test module');
+$GLOBALS['TL_LANG']['FMD']['bstest01'] = 'BSTEST01';

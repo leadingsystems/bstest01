@@ -1,19 +1,19 @@
 <?php
 
-namespace Merconis\Custom;
+namespace LeadingSystems\Bstest01;
 
-class mod_merconis_custom_dummy extends \Module {
+class mod_bstest01_dummy extends \Module {
 	public function generate() {
 		if (TL_MODE == 'BE') {
 			$objTemplate = new \BackendTemplate('be_wildcard');
-			$objTemplate->wildcard = '### MERCONIS CUSTOM DUMMY MODULE ###';
+			$objTemplate->wildcard = '### BSTEST01 DUMMY MODULE ###';
 			return $objTemplate->parse();
 		}
 		return parent::generate();
 	}
 	
 	public function compile() {
-        $this->strTemplate = 'mod_merconis_custom_dummy';
+        $this->strTemplate = 'mod_bstest01_dummy';
         $this->Template = new \FrontendTemplate($this->strTemplate);
 	}
 }
